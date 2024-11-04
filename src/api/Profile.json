@@ -1,0 +1,69 @@
+[{"img":"./satpute/adi.jpg",
+    "name":"Aditya Hublikar",
+"age":21,
+"city":"Pune",
+"Qualification":"BSc.CS",
+"Gender":"Male",
+"contact":8208343542
+
+},
+{"img":"./satpute/sidya.jpg",
+"name":"Siddhesh Deshmukh",
+"age":21,
+"city":"Pune",
+"Qualification":"BSc.CS",
+"Gender":"Male",
+"contact":9348474378
+
+},
+{
+"img":"./satpute/vaishhu.jpg",
+"name":"Vaishnavi Chaudhari",
+"age":21,
+"city":"Pune",
+"Qualification":"BSc.CS",
+"Gender":"Female",
+"contact":9348474543
+
+},
+{
+"img":"./satpute/ghodya.JPG",
+"name":"Raj Salunkhe",
+"age":21,
+"city":"Pune",
+"Qualification":"BSc.CS",
+"Gender":"male",
+"contact":94328474543
+
+},
+{
+"img":"./satpute/anya.JPG",
+"name":"Aniket Shah",
+"age":21,
+"city":"Pune",
+"Qualification":"BSc.CS",
+"Gender":"male",
+"contact":94325434543
+
+},
+{
+"img":"./satpute/om.JPG",
+"name":"Om joshi",
+"age":21,
+"city":"Pune",
+"Qualification":"BSc.CS",
+"Gender":"male",
+"contact":9432564745
+
+},
+{
+"img":"./satpute/tandya.png",
+"name":"Ritesh Bhokare",
+"age":21,
+"city":"Pune",
+"Qualification":"BE",
+"Gender":"male",
+"contact":9432568745
+
+}
+]

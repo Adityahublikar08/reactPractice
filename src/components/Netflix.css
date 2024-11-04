@@ -1,0 +1,19 @@
+.super_hit{
+    background-color: yellow;
+}
+
+.avg{
+    background-color: greenyellow;
+}
+
+.rating{
+    padding: 0.3 rem 1.8rem;
+    color: #000;
+    margin-left: 1.2 rem;
+    border-radius: 100rem;
+    -webkit-background-radius: 100rem;
+    -moz-background-radius: 100rem;
+    -ms-background-radius: 100rem;
+    -o-background-radius: 100rem;
+    padding: 5px;
+}

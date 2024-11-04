@@ -1,0 +1,65 @@
+[
+    {
+        "name": "Avatar-The way to water",
+        "id": "Avatar",
+        "img_url": "./images/b1.jpg",
+        "rating": "9.7",
+        "description": "Jake Sully lives with his newfound family formed on the extrasolar moon Pandora. Once a familiar threat returns to finish what was previously started, Jake must work with Neytiri and the army of the Na'vi race to protect their home.",
+        "genre": "Action, Adventure, Drama, Science Fiction",
+        "watch_url": "https://www.hotstar.com/in/movies/avatar-the-way-of-water/1260142021"
+    },
+    {
+        "name": "How to train your Dragon II",
+        "id": "Dragon",
+        "img_url": "./images/b3.jpg",
+        "rating": "8.7",
+        "description": "A hapless young Viking who aspires to hunt dragons becomes the unlikely friend of a young dragon himself, and learns there may be more to the creatures than he assumed.",
+        "genre": " Adventure, Drama ,family",
+        "watch_url": "https://www.jiocinema.com/movies/-/3870744"
+    },
+    {
+        "name": "Iron Man 3",
+        "id": "IronMan3",
+        "img_url": "./images/b6.jpg",
+        "rating": "7.1",
+        "description": "When Tony Stark's world is torn apart by a formidable terrorist called the Mandarin, he starts an odyssey of rebuilding and retribution.Tony Stark faces more challenges.",
+        "genre": "Action, Adventure, Sci-Fi",
+        "watch_url": "https://www.hotstar.com/in/movies/iron-man-3/1260028767"
+    },
+    {
+        "name": "Avengers: Endgame",
+        "id": "AvengersEndgame",
+        "img_url": "./images/b4.jpeg",
+        "rating": "8.4",
+        "description": "After the devastating events of Avengers: Infinity War, the Avengers assemble once more to reverse Thanos' actions and restore balance to the universe.",
+        "genre": "Action, Adventure, Drama, Sci-Fi",
+        "watch_url": "https://www.hotstar.com/in/movies/avengers-endgame/1260019765"
+    },
+    {
+        "name": "Fast X",
+        "id": "FastX",
+        "img_url": "./images/b7.jpg",
+        "rating": "6.0",
+        "description": "Dom Toretto and his family confront the most lethal adversary they've ever faced. This time, the stakes are higher, and the action more intense than ever.",
+        "genre": "Action, Crime, Thriller",
+        "watch_url": "https://www.peacocktv.com/watch/asset/movies/fast-x/abcasdfghij"
+    },
+    {
+        "name": "Journey to the Center of the Earth",
+        "id": "JourneyToTheCenter",
+        "img_url": "./images/b5.jpg",
+        "rating": "5.8",
+        "description": "On a thrilling journey to find the center of the earth, a scientist, his nephew, and their mountain guide make amazing discoveries and meet incredible creatures.",
+        "genre": "Action, Adventure, Family, Sci-Fi",
+        "watch_url": "https://www.netflix.com/in/title/70084796"
+    },
+    {
+        "name": "Jumanji: The Next Level",
+        "id": "Jumanji2",
+        "img_url": "./images/b2.jpg",
+        "rating": "6.7",
+        "description": "The gang is back but the game has changed. As they return to rescue one of their own, the players will have to brave parts unknown and unexplored, from arid deserts to snowy mountains, in order to escape the world’s most dangerous game.",
+        "genre": "Action, Adventure, Comedy, Fantasy",
+        "watch_url": "https://www.netflix.com/in/title/81092344"
+    }
+]

@@ -1,0 +1,44 @@
+/* .toggle-button{
+    height: 250px;
+    width: 500px;
+    border-radius: 110px;
+    box-shadow: 4px 4px 2px black;
+display: flex;
+align-items: center;
+border: 3px solid black;
+}
+
+.button{
+    transition: 0.5s ease-in-out;
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    color: orange;
+    border: 1px solid white;
+    box-shadow: 5px 5px 2px whitesmoke;
+    font-family: sans-serif;
+}
+.on{
+    background-color: green;
+    transform: translateX(295px);
+    
+}
+.off{
+    background-color: red;
+    transform: translateX(0);
+
+}
+.on1{
+    background-color:rgb(38, 149, 38);
+   
+
+}
+.off1{
+background-color: rgb(179, 31, 31);
+   
+
+} */
