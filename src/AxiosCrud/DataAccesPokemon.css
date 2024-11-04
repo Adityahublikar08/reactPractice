@@ -1,0 +1,15 @@
+.small-image {
+    width: 50px;
+    transition: transform 0.3s ease; /* Smooth transition */
+  }
+  
+  .small-image:hover {
+    transform: scale(2); /* Scale up to 2x on hover */
+  }
+
+  .hoverMe:hover{
+    transform: scale(1.3);
+    transition: transform 0.3s ease;
+    filter: drop-shadow(2px 2px 2px black);
+  }
+  
