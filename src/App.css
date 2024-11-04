@@ -1,0 +1,61 @@
+
+
+
+ #expense {
+  border: 1px solid black;
+  width: 100%;
+  padding: 20px;
+  background-image: radial-gradient(circle at 18.3% 24.1%, rgba(255,249,137,1) 7.4%, rgba(226,183,40,1) 58.3%);
+}
+
+/* Responsive Grid for Cards */
+.cards {
+  animation-name: card;
+  animation-duration: 3s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  transform-origin: top left;
+}
+
+.cards:hover {
+  transform: rotate(0deg) translateX(2cm);
+}
+
+/* Card Animation */
+@keyframes card {
+  0% {
+    transform: rotate(0deg) translateY(0px);
+  }
+  50% {
+    transform: rotate(-10deg) translateY(20px);
+  }
+  100% {
+    transform: rotate(0deg) translateY(0px);
+  }
+}
+
+/* Media Queries for Mobile Screens */
+@media (max-width: 768px) {
+  /* Reduce padding and ensure form and chart are full width */
+  #expense {
+    padding: 10px;
+  }
+
+  .grid {
+    grid-template-columns: 1fr !important; /* Stack cards vertically */
+  }
+
+  ul {
+    width: 100%;
+  }
+  
+  .p-4 {
+    padding: 10px !important;
+  }
+
+  /* Ensure responsive buttons */
+  .flex {
+    flex-direction: column;
+    gap: 10px;
+  }
+}
