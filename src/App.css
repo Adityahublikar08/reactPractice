@@ -1,61 +1,42 @@
-
-
-
- #expense {
-  border: 1px solid black;
-  width: 100%;
-  padding: 20px;
-  background-image: radial-gradient(circle at 18.3% 24.1%, rgba(255,249,137,1) 7.4%, rgba(226,183,40,1) 58.3%);
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
 }
 
-/* Responsive Grid for Cards */
-.cards {
-  animation-name: card;
-  animation-duration: 3s;
-  animation-timing-function: ease-in-out;
-  animation-iteration-count: infinite;
-  transform-origin: top left;
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
 }
 
-.cards:hover {
-  transform: rotate(0deg) translateX(2cm);
-}
-
-/* Card Animation */
-@keyframes card {
-  0% {
-    transform: rotate(0deg) translateY(0px);
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
   }
-  50% {
-    transform: rotate(-10deg) translateY(20px);
-  }
-  100% {
-    transform: rotate(0deg) translateY(0px);
+  to {
+    transform: rotate(360deg);
   }
 }
 
-/* Media Queries for Mobile Screens */
-@media (max-width: 768px) {
-  /* Reduce padding and ensure form and chart are full width */
-  #expense {
-    padding: 10px;
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
   }
+}
 
-  .grid {
-    grid-template-columns: 1fr !important; /* Stack cards vertically */
-  }
+.card {
+  padding: 2em;
+}
 
-  ul {
-    width: 100%;
-  }
-  
-  .p-4 {
-    padding: 10px !important;
-  }
-
-  /* Ensure responsive buttons */
-  .flex {
-    flex-direction: column;
-    gap: 10px;
-  }
+.read-the-docs {
+  color: #888;
 }
